@@ -1,9 +1,9 @@
 
 import React, { useState } from "react";
-import aibotimg from "./assets/aibotimg.png";
-import user from "./assets/user.png"
-import img from "./assets/img.svg"
-import submit from "./assets/submit.svg"
+import aibotimg from "../assets/aibotimg.png";
+import user from "../assets/user.png"
+import img from "../assets/img.svg"
+import submit from "../assets/submit.svg"
 const Chatbot = () => {
   const [prompt, setPrompt] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
@@ -62,9 +62,8 @@ const Chatbot = () => {
   const createChatBox = (message, isUser, file = null) => {
     return (
       <div
-        className={`mt-3 w-full md:w-3/5 flex ${
-          isUser ? "flex-row-reverse ml-auto mb-6" : "mt-4"
-        } items-center gap-3`}
+        className={`mt-3 w-full md:w-3/5 flex ${isUser ? "flex-row-reverse ml-auto mb-6" : "mt-4"
+          } items-center gap-3`}
       >
         <img
           src={isUser ? user : aibotimg}
@@ -73,9 +72,8 @@ const Chatbot = () => {
           style={{ width: 50, height: 50 }}
         />
         <div
-          className={`p-4 ${
-            isUser ? "bg-black text-white" : "bg-gray-200"
-          }`}
+          className={`p-4 ${isUser ? "bg-black text-white" : "bg-gray-200"
+            }`}
           style={{
             borderRadius: isUser
               ? "40px 0px 40px 40px"
