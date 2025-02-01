@@ -4,28 +4,23 @@ import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <div className="px-5 d-flex justify-content-between align-items-center navbar shadow-md sticky-top bg-white">
+        <div className="px-5  d-flex justify-content-between align-items-center navbar shadow-md sticky-top bg-white">
             <a class="navbar-brand" href="#">
                 <img src="../src/assets/canteenlogo.png" alt="" style={{ height: "12%", width: "35%" }} />
             </a>
             <div className="ms-auto">
-                <Link to="/signin" className="link text-black text-muted">
-                    SignIn
-                </Link>
-                <Link to="/signup" className="link text-black text-muted">
-                    SignUp
-                </Link>
-                <Link to="/signin" className="link text-black text-muted">
+               
+               
+                <Link to="/Home" className="link text-black text-muted">
                     Home
                 </Link>
-                <Link to="/cart" className="link text-black text-muted">
-                    Cart
+                <Link to="/addtocart" className="link text-black text-muted">
+                    Canteen
                 </Link>
-                <Link to="/dashboard" className="link text-black text-muted">
-                    Dashboard
-                </Link>
-                <Link to="/add-food" className="link text-black text-muted">
-                    Add Item
+                <a href="http://127.0.0.1:5500/frontend/src/pages/adminDashboard/admin.html">Dashboard</a>
+                
+                <Link to="/signin" className="link text-black text-muted">
+                    SignIn/Signup
                 </Link>
                 {/* <button className="link btn">
                     Logout

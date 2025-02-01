@@ -9,6 +9,7 @@ import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import SignInPage from './pages/login_signup/SignInPage.jsx';
 import SignUpPage from './pages/login_signup/SignUpPage.jsx';
+import AddToCart from './pages/addtocart/addtocart.jsx';
 
 
 
@@ -23,14 +24,17 @@ function App() {
   }
     , []);
 
+
   return (
     <>
       
       <Navbar></Navbar>
       
       <Routes>
-        <Route path='/' element={<HomePage />}></Route>
+        <Route path='/Home' element={<HomePage />}></Route>
         <Route path="/chatbot" element={<Chatbot />}></Route>
+        <Route path="/addtocart" element={<AddToCart />}></Route>
+       <Route path="/signin" element={<SignUpPage/>}></Route>
       </Routes>
       <Footer></Footer>
     </>
