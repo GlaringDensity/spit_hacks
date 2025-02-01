@@ -11,6 +11,8 @@ import SignInPage from './pages/login_signup/SignInPage.jsx';
 import SignUpPage from './pages/login_signup/SignUpPage.jsx';
 
 
+
+
 function App() {
 
   useEffect(() => {
@@ -25,6 +27,7 @@ function App() {
     <>
       
       <Navbar></Navbar>
+      
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
         <Route path="/chatbot" element={<Chatbot />}></Route>
