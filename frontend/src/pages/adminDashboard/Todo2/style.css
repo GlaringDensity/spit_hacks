@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4652f4;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit; /* Inherit background color */
+    filter: blur(1000px); /* Apply blur effect */
+    z-index: -1; /* Place it behind the content */
+}
+
+.rect {
+    width: 1400px;
+    height: 900px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+
+.header {
+    color: rgb(78, 10, 78);
+    margin: 30px 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.add {
+    position: relative;
+    left: 40px;
+    margin-bottom: 30px;
+}
+
+.inputbtn {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px gray solid;
+    padding-left: 15px;
+    
+}
+
+.inputbtn::placeholder {
+    text-align: center;
+}
+
+.addbtn {
+    height: 40px;
+    border-radius: 50px;
+    width: 90px;
+    background-color: orange;
+    color: white;
+    border: 0 black solid;
+}
+
+
+.task {
+    margin: 15px 50px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.checkbox {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+
+.checkbox:checked + .content {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.checkbox:checked + .contents {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.content {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 21rem;
+    padding: 10px;
+    white-space: normal; /* Allows text to wrap */
+    overflow-wrap: break-word;
+}
+
+.contents {
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 1px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 21rem;
+    padding: 10px;
+    white-space: normal; /* Allows text to wrap */
+    overflow-wrap: break-word;
+}
+
+.close {
+    position: absolute;
+    border: 0 solid black;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.close:hover {
+    text-align: center;
+    background-color: rgb(213, 95, 95);
+    color: white;
+    width: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
