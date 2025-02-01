@@ -4,10 +4,12 @@ import Chatbot from './component/Chatbot';
 import Home from './component/Home';
 
 
+
 function App() {
 
   return (
     <>
+   
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path="/chatbot" element={<Chatbot />}></Route>
