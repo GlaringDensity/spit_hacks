@@ -185,6 +185,11 @@
   text-align: center;
 }
 
+.body{
+  padding:0px !important;
+  margin:0px !important;
+}
+
 .slider_section .detail-box h1 {
   font-size: 4rem;
   font-weight: bold;

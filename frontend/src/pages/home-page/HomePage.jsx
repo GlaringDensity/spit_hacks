@@ -20,7 +20,7 @@ const Homepage = () => {
               {/* <img src="../src/assets/_-removebg.png" alt="chef" style={{ height: "80%", width: "75%", background: "transparent",  }}  className="chef"/> */}
             </div>
           </div>
-          <div className="landing-page-header"> </div>
+          <div className="landing-page-header w-50 h-50" >CanteenHub<br/>This is our canteenHub</div>
         </div>
 
         <div className="d-flex justify-content-center">
@@ -34,7 +34,7 @@ const Homepage = () => {
         <div className="menu-card-div px-5">
           <div className="row gx-5" data-aos="fade-left">
             <div className="col-7">
-              <p style={{ fontSize: "large" }}>Start your day with a delicious and energizing breakfast! From crispy toast and buttery croissants to fluffy pancakes and protein-rich omelets, we offer a variety of options to fuel your morning. Whether you prefer something light or a hearty meal, we have the perfect choice for you.</p>
+              <p style={{ fontSize: "xx-large" }}>Start your day with a delicious and energizing breakfast! From crispy toast and buttery croissants to fluffy pancakes and protein-rich omelets, we offer a variety of options to fuel your morning. Whether you prefer something light or a hearty meal, we have the perfect choice for you.</p>
             </div>
             <div className="col-5">
               <div className="menu-card">
@@ -68,7 +68,7 @@ const Homepage = () => {
               </div>
             </div>
             <div className="col-7">
-              <p style={{ fontSize: "large" }}>Enjoy the authentic taste of South India with our flavorful dishes! From crispy dosas and soft idlis to crunchy vadas and aromatic sambar, every bite is made with fresh ingredients and traditional recipes. Perfectly balanced in taste and nutrition, these meals are a delight for every food lover.
+              <p style={{ fontSize: "xx-large" }}>Enjoy the authentic taste of South India with our flavorful dishes! From crispy dosas and soft idlis to crunchy vadas and aromatic sambar, every bite is made with fresh ingredients and traditional recipes. Perfectly balanced in taste and nutrition, these meals are a delight for every food lover.
 
               </p>
             </div>
@@ -76,7 +76,7 @@ const Homepage = () => {
           <br /><br /><br /><br />
           <div className="row gx-5" data-aos="fade-left">
             <div className="col-7">
-              <p style={{ fontSize: "large" }}>Indulge in the bold flavors of Chinese cuisine with our sizzling noodles, fragrant fried rice, and crispy spring rolls. Whether it’s tangy Manchurian or spicy stir-fried vegetables, every dish is cooked to perfection with fresh ingredients and aromatic spices for an unforgettable taste.</p>
+              <p style={{ fontSize: "xx-large" }}>Indulge in the bold flavors of Chinese cuisine with our sizzling noodles, fragrant fried rice, and crispy spring rolls. Whether it’s tangy Manchurian or spicy stir-fried vegetables, every dish is cooked to perfection with fresh ingredients and aromatic spices for an unforgettable taste.</p>
             </div>
             <div className="col-5">
               <div className="menu-card">

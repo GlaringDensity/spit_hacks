@@ -1,12 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap");
 
-/* .navbar {
+ .navbar {
   display: flex;
   justify-content: flex-end;
   padding: 10px 0;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-family: "Poppins", sans-serif;
-} */
+} 
+
+
+.temporary {
+  height: 80px !important;
+}
+
+.links {
+  margin-right: 20px !important;
+}
+
+.dasboard {
+  text-decoration: none !important;
+  color: black !important;
+  font-size: 10px !important;
+}
 
 .link {
   text-decoration: none;
@@ -38,4 +53,11 @@
   color: white;
   font-size: 17px;
   font-weight: bold;
+}
+#i {
+  color: black !important;
+  text-decoration: none;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  font-size: 23px;
 }
