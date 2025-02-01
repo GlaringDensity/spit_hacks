@@ -9,6 +9,7 @@ import noodles from "../../assets/noodles.png";
 const Homepage = () => {
   return (
     <>
+    <div className="title">Canteen Hub</div>
       <div className="overlay-background"></div>
       <div className="px-5" style={{ background: 'linear-gradient(to right, #ffffff, #f4f8ff)' }}
       >

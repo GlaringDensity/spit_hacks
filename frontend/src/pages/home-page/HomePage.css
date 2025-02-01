@@ -347,3 +347,13 @@
   content: "\f061";
   font-family: 'FontAwesome';
 }
+
+.title {
+  color: black !important;
+  z-index: 1000 !important;
+  font-size: 100px !important;
+  position: relative !important;
+  top: 100px !important;
+  left: 450px;
+  color: white !important;
+}

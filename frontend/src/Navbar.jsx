@@ -17,6 +17,9 @@ const Navbar = () => {
                 <Link to="/addtocart" className="link text-black">
                     Canteen
                 </Link>
+                {/* <Link to="/Chatbot" className="link text-black links" id="chatbot">
+                    ChatBot
+                </Link> */}
                 <a id="i" style={{color: "black"}} href="http://127.0.0.1:5500/frontend/src/pages/adminDashboard/admin.html" className="dashboard">Dashboard</a>
                 
                 <Link to="/signin" className="link text-black">
