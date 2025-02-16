@@ -8,20 +8,19 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   box-sizing: border-box;
-  font-family: 'Segoe UI', system-ui, sans-serif;
 }
 
-body {
+/* body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #4f46e5, #818cf8);
   padding: 20px;
-}
+} */
 
 .auth-container {
   width: 100%;
@@ -39,7 +38,7 @@ body {
   width: 40%;
   background: linear-gradient(135deg, rgba(79, 70, 229, 0.9), rgba(129, 140, 248, 0.9)),
               url('/api/placeholder/400/600') center/cover;
-  padding: 40px;
+  padding: 40px !important;
   color: white;
   display: flex;
   flex-direction: column;
@@ -53,7 +52,7 @@ body {
 
 .auth-main {
   width: 60%;
-  padding: 40px;
+  padding: 40px !important;
   background: white;
   position: relative;
 }

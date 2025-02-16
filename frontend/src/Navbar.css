@@ -65,3 +65,8 @@
 #chatbot {
   margin-left: 20px !important;
 }
+
+
+#scrollAnime{
+  transition: all 0.8s linear 0s !important;
+}

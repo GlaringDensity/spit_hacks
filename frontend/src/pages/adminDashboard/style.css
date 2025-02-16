@@ -21,9 +21,7 @@
   --two-use-color: #5500cb;
 }
 body {
-  background-color: var(--background-color4);
-  max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 header {

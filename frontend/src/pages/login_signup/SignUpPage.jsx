@@ -123,7 +123,7 @@ const AuthForm = () => {
                     <h2>Welcome Back!</h2>
                     <p>Access your account and manage your portfolio with our secure authentication system.</p>
                 </div>
-                
+
             </div>
 
             <div className="auth-main">
@@ -149,29 +149,29 @@ const AuthForm = () => {
 
                     <div className="form-group">
                         <i className="fas fa-envelope input-icon"></i>
-                        <input 
-                            type="email" 
-                            className="form-control" 
+                        <input
+                            type="email"
+                            className="form-control"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            placeholder="Student Id / Staff Id" 
-                            required 
+                            placeholder="Student Id / Staff Id"
+                            required
                         />
                     </div>
 
                     <div className="form-group">
                         <i className="fas fa-lock input-icon"></i>
-                        <input 
+                        <input
                             type={isPasswordVisible ? 'text' : 'password'}
-                            className="form-control" 
+                            className="form-control"
                             value={password}
                             onChange={handlePasswordChange}
-                            placeholder="Password" 
-                            required 
+                            placeholder="Password"
+                            required
                         />
-                        <i 
-                            className={`far ${isPasswordVisible ? 'fa-eye-slash' : 'fa-eye'} password-toggle`} 
-                            onClick={handlePasswordToggle} 
+                        <i
+                            className={`far ${isPasswordVisible ? 'fa-eye-slash' : 'fa-eye'} password-toggle`}
+                            onClick={handlePasswordToggle}
                         />
                         <div className="password-strength">
                             <div className="password-strength-bar" style={{ width: `${passwordStrength}%` }}></div>
@@ -186,9 +186,9 @@ const AuthForm = () => {
                         <label>Remember me</label>
                     </div>
 
-                    <button 
-                        type="submit" 
-                        className="submit-btn" 
+                    <button
+                        type="submit"
+                        className="submit-btn"
                         disabled={isSubmitting}
                     >
                         <span>{isSignUp ? 'Create Account' : 'Sign In'}</span>
@@ -203,13 +203,13 @@ const AuthForm = () => {
                             <p>Enter the verification code sent to your email</p>
                             <div className="otp-inputs">
                                 {otpInputs.map((otp, index) => (
-                                    <input 
+                                    <input
                                         key={index}
-                                        type="text" 
-                                        maxLength="1" 
+                                        type="text"
+                                        maxLength="1"
                                         value={otp}
-                                        id={`otp-input-${index}`} 
-                                        onChange={(e) => handleOtpChange(e, index)} 
+                                        id={`otp-input-${index}`}
+                                        onChange={(e) => handleOtpChange(e, index)}
                                     />
                                 ))}
                             </div>

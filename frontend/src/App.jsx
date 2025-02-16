@@ -27,14 +27,15 @@ function App() {
 
   return (
     <>
-      
+
       <Navbar></Navbar>
-      
+
       <Routes>
-        <Route path='/Home' element={<HomePage />}></Route>
+        <Route path='/home' element={<HomePage />}></Route>
         <Route path="/chatbot" element={<Chatbot />}></Route>
         <Route path="/addtocart" element={<AddToCart />}></Route>
-       <Route path="/signin" element={<SignUpPage/>}></Route>
+        <Route path="/signin" element={<SignUpPage />}></Route>
+        <Route path="*" element={<HomePage />}></Route>
       </Routes>
       <Footer></Footer>
     </>
